@@ -1,7 +1,9 @@
 """
+
 Date : May 20, 2022
 Title : Remove String Spaces
-Instructions: Simply remove the space in given strings and return the resultant string.
+Instruction: Simply remove the space in given strings and return the resultant string.
+
 """
 
 import re
