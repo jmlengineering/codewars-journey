@@ -15,7 +15,7 @@ My thought process:
 """
 
 def sum_of_differences(arr):
-    #Found the sort funnction is useful to eliminate the use of multiple loops
+    #Found the sort function is useful to eliminate the use of multiple loops
     arr.sort(reverse = True)
     sum = 0
     for i in range(len(arr) - 1):
