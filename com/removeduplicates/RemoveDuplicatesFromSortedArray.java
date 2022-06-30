@@ -1,4 +1,4 @@
-/*
+package com.removeduplicates;/*
 *
 * Date : 06.22.22
 * My Thought Process:
@@ -23,16 +23,5 @@ public class RemoveDuplicatesFromSortedArray {
             }
             return i + 1;
         }
-
-    /*// Test Case
-    int[] nums = [1, 1, 2, 3, 4, 7, 7, 7, 11, 11, 28]; // Input array
-    int[] expectedNums = [1,2,3,4,7,11,28]; // The expected answer with correct length
-
-    int k = removeDuplicates(nums); // Calls your implementation
-
-        assert k == expectedNums.length;
-        for (int i = 0; i < k; i++) {
-        assert nums[i] == expectedNums[i];
-    }*/
 }
 
